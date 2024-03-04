@@ -7,5 +7,6 @@ public class Task1 {
         int b = 6;
         int result = a % b;
         System.out.println(result);
+
     }
 }
