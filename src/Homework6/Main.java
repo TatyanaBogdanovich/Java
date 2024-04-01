@@ -7,9 +7,8 @@ public class Main {
         CreditCard Visa = new CreditCard("1313131313131313", 10000);
         CreditCard BelCard = new CreditCard("1515151515151515", 20000);
         MasterCard.addSum(1500);
-        Visa.withdrawSum(500);
-        BelCard.printInformation();
-        MasterCard.printInformation();
-        Visa.printInformation();
-    }
+        Visa.addSum(500);
+        BelCard.addSum(1000);
+        MasterCard.withdrawSum(10000);
+                }
 }
