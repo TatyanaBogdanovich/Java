@@ -11,5 +11,6 @@ public class Task0 {
         int result = a / b;
 
         System.out.println(result);
+
     }
 }
