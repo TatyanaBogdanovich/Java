@@ -2,7 +2,6 @@ package Homework2;
 import java.util.Scanner;
 
 public class Task1 {
-
         private static int Integer;
     private static Object cout;
 
