@@ -25,7 +25,6 @@ public class Task2 {
             }
         }
     }
-
     public static void exercise2() {
 
         System.out.println();
