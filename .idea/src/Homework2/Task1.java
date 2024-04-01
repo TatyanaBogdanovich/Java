@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Task1 {
 
-        private static int Integer;
+    private static int Integer;
     private static Object cout;
 
     public static void main(String[] args) {

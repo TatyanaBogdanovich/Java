@@ -19,7 +19,6 @@ public class Task2 {
 
         for (i = 1; i <= 99; i += 2) {
             if (i % 2 != 0) {
-
                 System.out.print(i + " ");
             }
         }
