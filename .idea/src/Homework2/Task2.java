@@ -13,7 +13,6 @@ public class Task2 {
         exercise3();
         exercise4();
     }
-
     public static void exercise1() {
 
         int i = 1;
