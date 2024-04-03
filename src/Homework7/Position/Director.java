@@ -1,6 +1,6 @@
 package Homework7.Position;
 
-public class Director implements Person {
+class Director implements Person {
     public Director(String post) {
     }
     @Override
