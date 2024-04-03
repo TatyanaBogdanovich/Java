@@ -1,5 +1,4 @@
 package Homework7.Position;
-
 public class Main {
         public static void main(String[] args) {
         Person director = new Director("Директор");
