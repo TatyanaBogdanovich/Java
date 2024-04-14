@@ -1,4 +1,5 @@
 package Homework7.Shape;
+
 public class Rectangle extends Shape {
     protected final double height;
     protected final double width;

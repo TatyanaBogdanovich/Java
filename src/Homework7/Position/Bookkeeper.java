@@ -1,4 +1,5 @@
 package Homework7.Position;
+
 class Bookkeeper implements Person {
     private String post = "Bookkeeper";
     public Bookkeeper(String post) {
