@@ -7,16 +7,15 @@ import java.util.Scanner;
 public class Task1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        List<Integer> positiveNum = new ArrayList<>();
+        List<Integer> positiveNums = new ArrayList<>();
+        System.out.print("Введите целые положительные числа (завершите ввод  отрицательнмым числом): ");
         while (true) {
-            System.out.print("Введите целые положительные числа (завершите ввод  отрицательнмым числом): ");
             if (scan.hasNextInt()) {
                 int number = scan.nextInt();
                 if (number < 0) {
                     break;
-                }
-                if (number > 0) {
-                    positiveNum.add(number);
+                } else {
+                    positiveNums.add(number);
                 }
             } else {
                 System.out.println("Неверное значение числа");
@@ -24,7 +23,7 @@ public class Task1 {
             }
         }
         int sum = 0;
-        for (int number : positiveNum) {
+        for (int number : positiveNums) {
             sum += number;
         }
         System.out.println("Сумма введенных целых положительных чисел: " + sum);

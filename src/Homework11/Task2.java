@@ -15,7 +15,8 @@ public class Task2 {
                 numbers.add(num);
             } else {
                 String input = scan.next();
-                if (input.equals ("=")); {
+                if (input.equals("=")) ;
+                {
                     break;
                 }
             }
